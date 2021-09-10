@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:frontend/constant.dart';
 import 'package:frontend/screens/Components/name_field.dart';
-// import 'package:rentz/screens/login_screen.dart';
+import 'package:frontend/screens/login_screen.dart';
 import 'email_field.dart';
 // import 'package:rentz/screens/Components/profile.dart';
 
@@ -61,7 +61,7 @@ class _SignupFormState extends State<SignupForm> {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.only(left: 97),
+              padding: const EdgeInsets.only(left: 125),
               child: Container(
                 width: 217,
                 child: TextFormField(
@@ -102,7 +102,7 @@ class _SignupFormState extends State<SignupForm> {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.only(left: 97),
+              padding: const EdgeInsets.only(left: 125),
               child: Container(
                 width: 217,
                 child: TextFormField(
@@ -151,10 +151,10 @@ class _SignupFormState extends State<SignupForm> {
               Text('Already have an account ?'),
               TextButton(
                 onPressed: () => {
-              //     Navigator.push(
-              // context,
-              // MaterialPageRoute(builder: (context) => LoginScreen()),
-              //     ),
+                  Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => LoginScreen()),
+                  ),
                 },
                 child: const Text(
                   'Sign In',

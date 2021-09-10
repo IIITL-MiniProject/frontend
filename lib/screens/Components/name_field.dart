@@ -20,7 +20,7 @@ class _NameFieldState extends State<NameField> {
         ),
       ),
       Padding(
-        padding: const EdgeInsets.only(left: 97),
+        padding: const EdgeInsets.only(left: 125),
         child: Container(
           width: 217,
           child: TextFormField(

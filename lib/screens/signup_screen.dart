@@ -3,6 +3,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:frontend/constant.dart';
 import 'Components/signup_form.dart';
 
+
 class SignupScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -11,11 +12,11 @@ class SignupScreen extends StatelessWidget {
           body: SingleChildScrollView(
                       child: Column(
         children: [
-                Row(
-                  children: [
-                         SvgPicture.asset(circlex,),
-                  ],
-                ),
+                // Row(
+                //   children: [
+                //          SvgPicture.asset(circlex,),
+                //   ],
+                // ),
                 SizedBox(height: 25,),
                 Text('Welcome Onboard !!',style: TextStyle(fontSize: 18,fontWeight: FontWeight.bold),),
                 SizedBox(height: 62),
